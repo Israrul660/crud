@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "ViewRegisterData";
+    Layout = "~/Views/Shared/AdminMaster.cshtml";
+}
+
+
+
+
+@using System.Data;
+@using System.Data.SqlClient;
+@using FirstWeb.Models;
+<style>
+    th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<h2>ViewRegisterData</h2>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Picture</th>
+        <th>DOB</th>
+        <th>Password</th>
+    </tr>
+    @if(Model.mode)
+</table>
+
